@@ -1,0 +1,7 @@
+{
+  "input vars": ["photoperiod", "uvperiod", "par"],
+  "output var": "chemscore",
+  "ranges": { "photoperiod": [0, 24], "uvperiod": [0, 24], "par": [0, 2000], "chemscore": [-5, 5] },
+  "max delta": { "photoperiod": 4, "uvperiod": 24, "par": 2000 },
+  "resources": { "photoperiod": null, "uvperiod": null, "par": [735, 798, 867, 833, 445, 637] }
+}
